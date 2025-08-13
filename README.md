@@ -1,5 +1,111 @@
 <h1>RiskGuard</h1>
 
+<h1>RiskGuard</h1>
+
+<p>Download and view climate datasets from <strong>Copernicus</strong> 
+and <strong>CMCC</strong> in QGIS, apply advanced geographic and temporal 
+filters, and export the results as <strong>Mesh Layer</strong> and 
+<strong>Raster Layer</strong>.</p>
+
+<p><strong>Copernicus</strong></p>
+
+<p>Register on Copernicus via the following link:</p>
+
+<a href="https://accounts.ecmwf.int/auth/realms/ecmwf/login-actions/registration?client_id=cds&tab_id=kMxnQgWIUUc">ECMWF Account</a><br>
+
+<p>All information on how to create the .cdsapirc file, obtain the URL and API key, and install the cdsapi libraries is available here:</p>
+
+<a href="https://cds.climate.copernicus.eu/how-to-api">CDS API</a><br>
+
+<p>In Copernicus, to download some datasets you must accept the terms &amp; conditions.</p>
+
+<p>You can do this directly within the program before downloading the datasets, or directly from your profile:</p>
+
+<a href="https://cds.climate.copernicus.eu/profile?tab=licences">Create Profile</a><br>
+
+<img src="https://www.ilcorsaronero.it/tesi/img1.png"/>
+
+***Note: 
+<p><strong>IF QGIS does not recognize cdsapi</strong></p>
+
+<p>1. Open the folder: C:\Program Files\QGIS 3.34.9</p>
+<p>2. Click on OSGeo4W to open the terminal</p>
+<p>3. Type the following command in the command prompt and press Enter:</p>
+<p>pip install cdsapi</p>
+<p>Now QGIS will correctly recognize the library.</p>
+
+
+<h2>CMCC-DDS</h2>
+
+<p>Register on CMCC-DDS via the following link:</p>
+
+<a href="https://auth02.cmcc.it/realms/DDS/login-actions/registration?client_id=ddsweb&tab_id=STW6rvWfB2c&client_data=eyJydSI6Imh0dHBzOi8vZGRzLmNtY2MuaXQvPyIsInJ0IjoiY29kZSIsInJtIjoiZnJhZ21lbnQiLCJzdCI6IjhkZGY4N2Q5LTk5NmEtNGM4Zi05OTE2LTZhODI3NzVhMDJmYiJ9">Create Profile</a><br>
+
+<p>To create the .ddsapirc configuration file, obtain the URL and API key, and install the ddsapi libraries, refer to the official guide:</p>
+
+<a href="https://dds.cmcc.it/#/docs">Official Guide</a><br>
+
+<h2>How it works</h2>
+
+<p>The interface allows you to choose the <strong>endpoint</strong> from 
+which to download datasets via two radio buttons at the top.</p>
+
+<p>If you select Copernicus, the available categories will appear 
+(e.g., Analysis, Climate Indices, etc.). </p>
+<p>After choosing a category, the dropdown will populate with the list of available datasets, indicating the total number. (Img 1.1)
+</p>
+
+<img src="https://www.ilcorsaronero.it/tesi/img2.png"/>
+<p><strong>Img 1.1</strong></p>
+
+<h2>Next steps</h2>
+
+<p><strong>Dataset selection</strong>: After the list is populated, choose a dataset. 
+A dynamic structure will be generated containing all variables, temporal parameters, download format, etc.</p>
+
+<p><strong>Download</strong>: After selecting the mandatory parameters, start the download by clicking on <strong>Submit</strong>.</p>
+
+<p><strong>Monitoring in QGIS</strong>: In QGIS's Python console, you can monitor the download status (accepted, running, successful).</p>
+
+
+<h2>Managing downloaded files:</h2>
+
+<p>Once downloaded, the <strong>file name is dynamically generated</strong> 
+based on the current date and time, ensuring unique identification.</p>
+
+<p>The application supports various file formats, including <strong>ZIP, 
+NetCDF (.nc), and GRIB</strong>.</p>
+
+<p>If the downloaded file is a ZIP archive, it is automatically extracted into the <strong>Documents</strong> destination directory.</p>
+
+<p>If the downloaded or extracted files are in NetCDF (.nc) or GRIB format, they are automatically loaded as layers in QGIS.</p>
+
+
+<h2>Geographic selection interface:</h2>
+
+<p>The <strong>GlobeMapForm</strong> graphical interface was developed 
+to allow interactive geographic selection, helping the user identify and 
+delimit the area of interest.</p>
+
+<p><strong>Zoom and Panning</strong>: The interface includes two +/- buttons 
+for zooming in and out. The map scale adapts based on the zoom to maintain high resolution.</p>
+
+<p><strong>Rectangular Area Selection:</strong> By enabling the Draw Rectangle 
+mode, the user can draw a rectangle to delimit the area.</p>
+
+<p>When activated, the user can select the desired area by clicking on the map to mark the starting and ending points of the rectangle.</p>
+
+<p>The selection is displayed with a red outline to ensure visibility and precision.</p>
+
+<p><strong>Coordinate Output:</strong> Using the <strong>Save</strong> button, 
+the coordinates are saved in the main panel.</p>
+
+<img src="https://www.ilcorsaronero.it/tesi/img3.png"/>
+<br><br>
+
+
+<h1>Italian Version</h1>
+
 <p>Scarica e visualizza dataset climatici di <strong>Copernicus</strong>
 e <strong>CMCC</strong> in QGIS, applica filtri geografici e temporali
 avanzati e esporta i risultati come <strong>Layer Mesh</strong> e
