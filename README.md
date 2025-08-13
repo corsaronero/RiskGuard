@@ -1,6 +1,5 @@
-<h1>RiskGuard</h1>
 
-<h1>RiskGuard</h1>
+<h1>RiskGuard (en)</h1>
 
 <p>Download and view climate datasets from <strong>Copernicus</strong> 
 and <strong>CMCC</strong> in QGIS, apply advanced geographic and temporal 
@@ -104,7 +103,7 @@ the coordinates are saved in the main panel.</p>
 <br><br>
 
 
-<h1>Italian Version</h1>
+<h1>RiskGuard (it)</h1>
 
 <p>Scarica e visualizza dataset climatici di <strong>Copernicus</strong>
 e <strong>CMCC</strong> in QGIS, applica filtri geografici e temporali
