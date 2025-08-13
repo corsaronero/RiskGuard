@@ -23,7 +23,7 @@ il download dei dataset, oppure direttamente dal tuo profilo:</p>
 
 <a href="https://cds.climate.copernicus.eu/profile?tab=licences">Crea Profilo</a><br>
 
-<img src=""/>
+<img src="https://www.ilcorsaronero.it/tesi/img1.png"/>
 
 ***Nota: 
 <p><strong>SE QGIS non riconosce cdsapi</strong></p>
@@ -60,7 +60,7 @@ superiore.</p>
 la lista dei dataset disponibili, indicando il numero totale. (Img 1.1)
 </p>
 
-<img src=""/>
+<img src="https://www.ilcorsaronero.it/tesi/img2.png"/>
 <p><strong>Img 1.1</strong></p>
 
 <h2>Passaggi successivi</h2>
@@ -117,6 +117,9 @@ visibilità e precisione.</p>
 <p><strong>Emissione delle Coordinate:</strong> Tramite il pulsante
 <strong>Save</strong>, le coordinate vengono salvate nel pannello
 principale.</p>
+
+<img src="https://www.ilcorsaronero.it/tesi/img3.png"/>
+<br><br>
 
 
 
